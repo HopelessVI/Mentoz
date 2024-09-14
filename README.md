@@ -122,7 +122,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 For any inquiries or further information, please reach out via:
 
 - GitHub: [Partha02Bh](https://github.com/Partha02Bh)
-- Email: [Partha02Bh](gkp5625@gmail.com)
+- Email: [Gmail](gkp5625@gmail.com)
 
 ---
 

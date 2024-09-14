@@ -35,7 +35,7 @@ To get the Mentoz project up and running on your local machine, follow these ste
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/YourUsername/Mentoz.git
+    git clone https://github.com/HopelessVI/Mentoz.git
     cd Mentoz
     ```
 

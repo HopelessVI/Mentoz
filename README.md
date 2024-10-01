@@ -1,129 +1,175 @@
-# Mentoz
+# MentoZ - AI-Driven Mentorship Platform 🚀
 
-**Mentoz** is a modern, AI-powered mentorship platform designed to create meaningful connections between mentors and mentees. It offers personalized learning experiences, gamified learning paths, and long-term mentorship programs tailored to individual needs. The platform leverages advanced tools for effective mentor-mentee collaboration and focuses on project-based mentorship.
+**Smart India Hackathon 2024** | **Problem Statement ID**: SIH1630 | **Theme**: Smart Education
 
-## Features
-
-- **AI-Powered Mentor Matching**: Uses machine learning algorithms to match mentees with the most suitable mentors based on skills, goals, and interests.
-- **Gamified Learning Paths**: Provides interactive, engaging learning paths to encourage progress through challenges and rewards.
-- **Long-Term Mentorship Programs**: Supports long-term mentorships with consistent goals and tracking, ensuring meaningful career or personal development.
-- **Personalized Roadmaps**: Tailored learning and career roadmaps for each mentee, customized by mentors and enhanced through AI suggestions.
-- **Mentor-Mentee Collaboration Tools**: In-app communication tools, file sharing, and progress tracking to streamline the mentorship process.
-- **Project-Based Mentorship**: Focuses on hands-on, project-based learning experiences for mentees to build their skills with real-world applications.
-- **Session Booking**: Integrated with **Calendly** for seamless mentor-mentee session scheduling.
-- **Lexis Integration**: Generates transcripts for mentorship sessions using **Lexis**, allowing participants to focus on discussions without worrying about note-taking.
-
-## Tech Stack
-
-- **Frontend**: 
-  - React
-  - TypeScript
-  - Tailwind CSS
-
-- **Backend**:
-  - Node.js
-  - MongoDB
-  
-- **Third-Party Integrations**:
-  - **Lexis**: For generating session transcripts.
-  - **Calendly**: For session scheduling and management.
-
-## Installation
-
-To get the Mentoz project up and running on your local machine, follow these steps:
-
-1. **Clone the repository**:
-
-    ```bash
-    git clone https://github.com/HopelessVI/Mentoz.git
-    cd Mentoz
-    ```
-
-2. **Install dependencies**:
-
-    - Navigate to both the `client` and `server` directories and run the following:
-
-    ```bash
-    # Client
-    cd client
-    npm install
-    
-    # Server
-    cd ../server
-    npm install
-    ```
-
-3. **Set up environment variables**:
-
-    Create a `.env` file in the `server` directory and configure the following variables:
-
-    ```bash
-    MONGODB_URI=<your-mongodb-connection-string>
-    LEXIS_API_KEY=<your-lexis-api-key>
-    CALENDLY_API_KEY=<your-calendly-api-key>
-    ```
-
-4. **Run the development servers**:
-
-    - In the `client` folder, start the React app:
-
-    ```bash
-    npm run start
-    ```
-
-    - In the `server` folder, start the Node.js server:
-
-    ```bash
-    npm run dev
-    ```
-
-5. **Access the app**:
-
-    Open your browser and go to `http://localhost:3000` to start using Mentoz.
-
-## Project Structure
-
-The project follows a clear separation of concerns between the frontend and backend.
-
-- **client/**: Contains the React frontend with components, pages, and styles (using Tailwind CSS).
-- **server/**: Houses the backend API, developed using Node.js and MongoDB.
-- **models/**: Contains Mongoose models for MongoDB schemas.
-- **routes/**: Handles API endpoints for various features, including mentorship programs, user management, and transcript generation.
-- **services/**: Contains services for integrating external tools like Lexis and Calendly.
-
-## Key Components
-
-1. **Mentor Matching**: Utilizes AI models to dynamically pair mentees with mentors.
-2. **Gamified Learning Paths**: Integrated with the learning management system to create progress tracking, challenges, and rewards.
-3. **Collaboration Tools**: In-app messaging and file-sharing features.
-4. **Transcript Generation**: Uses Lexis API for creating transcripts of mentorship sessions.
-5. **Session Booking**: Managed through Calendly, allowing seamless session management between mentors and mentees.
-
-## Contributing
-
-Contributions are welcome! If you want to improve the platform, follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bugfix (`git checkout -b feature-name`).
-3. Commit your changes (`git commit -m 'Add new feature'`).
-4. Push to your branch (`git push origin feature-name`).
-5. Open a pull request.
-
-## Issues
-
-If you encounter any issues or have suggestions, please open an [issue](https://github.com/YourUsername/Mentoz/issues) on the GitHub repository.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-For any inquiries or further information, please reach out via:
-
-- GitHub: [Partha02Bh](https://github.com/Partha02Bh)
-- Email: [Gmail](gkp5625@gmail.com)
+[![YouTube Video Explanation](https://img.shields.io/badge/YouTube-Video-blue?logo=youtube)](https://youtu.be/pWQe_VNoNew)
 
 ---
 
-**Mentoz**: Empowering mentorship through AI and collaboration.
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Technical Stack](#technical-stack)
+- [Development Workflow](#development-workflow)
+- [Unique Value Proposition](#unique-value-proposition)
+- [Challenges and Solutions](#challenges-and-solutions)
+- [Future Vision](#future-vision)
+- [Impact](#impact)
+- [Screenshots](#screenshots)
+- [How to Get Started](#how-to-get-started)
+- [Contributing](#contributing)
+- [License](#license)
+
+---
+
+## Project Overview 🧑‍💻
+
+MentoZ is an AI-driven mentorship platform designed to foster personalized connections between mentors and mentees. Our goal is to bridge the gap between learning and practical experience by providing an interactive, hands-on, and engaging environment that empowers users to excel in their personal and professional lives.
+
+With features like **AI-powered mentor matching**, **gamified learning paths**, and **project-based mentorship**, MentoZ offers a tailored learning experience. This platform aims to help individuals build strong portfolios and advance their careers with real-world applications.
+
+## Features ✨
+
+- **AI-Powered Mentor Matching**: Leverages machine learning algorithms to match mentees with mentors based on skills, goals, and interests.
+- **Gamified Learning Paths**: Engage users through interactive challenges, rewards, and achievements.
+- **Personalized Roadmaps**: Tailored learning and career roadmaps created by mentors and enhanced by AI suggestions.
+- **Project-Based Mentorship**: Provides real-world, hands-on learning opportunities to enhance mentee skills.
+- **Transcript Generation**: Automatically generates transcripts of mentorship sessions for later review and learning.
+- **Referral-Driven Job Search**: Mentorship milestones unlock referral opportunities, creating goal-oriented career pathways.
+
+---
+
+## Technical Stack 🛠
+
+MentoZ is powered by cutting-edge technologies to ensure scalability, security, and a seamless user experience:
+
+**Frontend:**
+- React.js
+- JavaScript
+
+**Backend:**
+- Node.js
+- MongoDB
+
+**AI/ML:**
+- Scikit-Learn
+- Pickle
+
+**APIs:**
+- Rocket API (for task integration)
+- Calendly API (for scheduling)
+
+**Cloud Services:**
+- AWS (for hosting and scalability)
+
+---
+
+## Development Workflow 🛠️
+
+Our development process follows a streamlined and agile approach to ensure efficiency and quality:
+
+1. **Frontend Development**: Using React.js for a responsive, dynamic UI.
+2. **Backend Development**: Building a robust server using Node.js and MongoDB for data storage.
+3. **AI/ML Integration**: Utilizing Scikit-Learn for mentor-mentee matching and enhancing the personalization process.
+4. **APIs Integration**: Using Rocket API and Calendly to automate task creation and scheduling.
+5. **Deployment**: Hosted on AWS for scalability and high performance.
+
+---
+
+## Unique Value Proposition (UVP) 🌟
+
+What makes MentoZ stand out?
+
+- **AI Matching Reliability**: Continuous model training ensures high accuracy in mentor-mentee pairings.
+- **Gamified Learning**: Engage and motivate users through challenges, badges, and rewards.
+- **Project-Based Mentorship**: Hands-on experience to boost real-world skills and build strong portfolios.
+- **Referral-Driven Job Search**: Mentees can request referrals after mentorship milestones, helping them secure jobs faster.
+- **Affordable Pricing**: Reasonably priced mentorship programs accessible to a wide audience.
+
+---
+
+## Challenges and Solutions 🧩
+
+- **Scalability**: Leveraging cloud services like Google Cloud to handle growing user bases.
+- **Market Saturation**: Offering unique features like personalized guidance and referral-driven job opportunities.
+- **Monetization**: A well-structured pricing model that balances affordability with quality mentorship.
+- **AI Matching Reliability**: Continuous model improvement and regular quality control checks.
+
+---
+
+## Future Vision 🔮
+
+Our roadmap for MentoZ includes:
+
+- **Welcome Incentives**: Discounts or credits for new users completing their profiles.
+- **Engagement Rewards**: Users earn points for completing activities, redeemable for premium features.
+- **Referral Program**: Both mentors and mentees receive bonuses for successful referrals.
+- **Global Mentor Network**: Expanding into international markets to offer cross-cultural learning and mentorship.
+- **Mobile App Expansion**: Developing a mobile app for easier access and on-the-go mentorship.
+
+---
+
+## Impact 🌍
+
+MentoZ delivers both **social** and **economic benefits**:
+
+- **Accelerated Career Progression**: Personalized learning paths and real-world project experiences fast-track users' career growth.
+- **Expanded Professional Network**: AI-driven mentor matching connects users with experts from various industries.
+- **Improved Workforce Readiness**: Project-based learning ensures users are job-ready with practical skills.
+- **Increased Accessibility**: Offering remote mentorship across global regions, removing geographical barriers.
+
+---
+
+## Screenshots 📸
+
+Here are some visuals of the platform to give you a glimpse of what MentoZ looks like in action:
+
+![Landing Page - 1](https://github.com/user-attachments/assets/b044bc6c-7933-4496-bce7-4eb3c0fcc6c8)
+
+![Landing Page-2](https://github.com/user-attachments/assets/bde065c3-2ac2-49d7-a62f-884aba6a00ed)
+
+![Landing Page-3](https://github.com/user-attachments/assets/0fb93c2f-bcb8-41e1-bd8d-46c13a527698)
+
+![Mentee's  Dashboard](https://github.com/user-attachments/assets/880a8f62-048e-406e-bb16-6db6ec723f0d)
+
+
+
+---
+
+## How to Get Started 💻
+
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/HopelessVI/Mentoz.git
+    ```
+2. **Install dependencies**:
+    ```bash
+    npm install
+    ```
+3. **Run the development server**:
+    ```bash
+    npm start
+    ```
+4. **Access the platform** at `http://localhost:3000`
+
+---
+
+## Contributing 🤝
+
+We welcome contributions! If you'd like to contribute to MentoZ, please follow these steps:
+
+1. Fork the repository.
+2. Create a new feature branch (`git checkout -b feature-branch`).
+3. Commit your changes (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Open a pull request.
+
+---
+
+## License 📜
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+Built with ❤️ by **Team Hopeless VI** | [GitHub](https://github.com/HopelessVI/Mentoz) | [Video Explanation](https://youtu.be/pWQe_VNoNew)

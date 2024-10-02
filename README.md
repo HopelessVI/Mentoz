@@ -170,11 +170,12 @@ We welcome contributions! If you'd like to contribute to MentoZ, please follow t
 ## Team Members 
 
 
-1. Gaurav  (https://www.linkedin.com/in/gaurav-7528b1257/)
-2. Create a new feature branch (`git checkout -b feature-branch`).
-3. Commit your changes (`git commit -m 'Add some feature'`).
-4. Push to the branch (`git push origin feature-branch`).
-5. Open a pull request.
+1. Gaurav  [Linkedin](https://www.linkedin.com/in/gaurav-7528b1257/)
+2. Shreeya  [Linkedin](https://www.linkedin.com/in/shreeya-nayak-108282216/)
+3. Nistha  [Linkedin](https://www.linkedin.com/in/nistha-96597824b/)
+4. Dimple  [Linkedin](https://www.linkedin.com/in/dimple-tanwer-32b058263/)
+5. Rudra  [Linkedin](https://www.linkedin.com/in/patel-rudraj/)
+6. Parthasarathi  [Linkedin](https://www.linkedin.com/in/parthasarathi-bhattacharya-0643b1213/)
 
 ---
 

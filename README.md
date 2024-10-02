@@ -18,6 +18,7 @@
 - [Screenshots](#screenshots)
 - [How to Get Started](#how-to-get-started)
 - [Contributing](#contributing)
+- [Team Members](#TeamMembers)
 - [License](#license)
 
 ---
@@ -166,7 +167,7 @@ We welcome contributions! If you'd like to contribute to MentoZ, please follow t
 
 ---
 
-## Team Members 🤝
+## Team Members 
 
 
 1. Gaurav  (https://www.linkedin.com/in/gaurav-7528b1257/)

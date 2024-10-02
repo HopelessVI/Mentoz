@@ -1,4 +1,4 @@
-![linkedin-original](https://github.com/user-attachments/assets/d3d12460-0dcf-446a-859e-661344c1f044)# MentoZ - AI-Driven Mentorship Platform 🚀
+# MentoZ - AI-Driven Mentorship Platform 🚀
 
 **Smart India Hackathon 2024** | **Problem Statement ID**: SIH1630 | **Theme**: Smart Education
 

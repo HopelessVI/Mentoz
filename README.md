@@ -166,6 +166,17 @@ We welcome contributions! If you'd like to contribute to MentoZ, please follow t
 
 ---
 
+## Team Members 🤝
+
+
+1. Gaurav  (https://www.linkedin.com/in/gaurav-7528b1257/)
+2. Create a new feature branch (`git checkout -b feature-branch`).
+3. Commit your changes (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Open a pull request.
+
+---
+
 ## License 📜
 
 This project is licensed under the [MIT License](LICENSE).
